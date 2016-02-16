@@ -1,0 +1,258 @@
+
+/* ------ START: Global Reset ------ */
+
+h1,
+h2,
+p,
+ul {
+  margin: 0;
+}
+
+img {
+  border: 0;
+  height: auto;
+  max-width: 100%;
+  width: auto;
+}
+
+p,
+h1,
+h2,
+ol {
+  margin-bottom: 1em;
+}
+
+/* HTML5 tags */ 
+header,
+footer,
+aside,
+nav,
+article,
+section {
+  display: block;
+}
+
+
+
+/* -- GENERAL STYLES START -- */
+
+a,
+a:link {
+  color: #008888; <--!what color-->
+}
+
+a:visited {
+  color: #004009;
+}
+
+a:hover {
+  color: #00a616;
+}
+
+.clear {
+  clear: both; 
+} <--!notice-->
+
+p,
+ul {
+  font-size: .875em;  /* 14/16 */
+  line-height: 1.5em; /* 28/14 */
+  margin: 0 0 1.5em; /* 28/14 */
+}
+
+ul {
+  margin: 0 0 1.5em 5%; /* 28/14 */
+}
+
+.wrapper {
+  background: #fff;
+  color: #333;
+  margin: 0 auto;
+  max-width: 980px;
+  width: 100%; 
+  box-sizing: border-box;
+  padding: 0 2.0408163265306123% 3.061224489795918%; /* 20/980 | 30/980 */ 
+}
+
+body {
+  background: url('img/bak-img.jpg');
+  color: #460002; 
+  font-family: 'Merriweather', serif;
+}
+/* -- GENERAL STYLES END -- */
+
+
+/* -- NAV (GENERAL) START -- */
+nav {
+  clear: both; 
+}
+
+nav ul {
+  list-style-type: none; 
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  vertical-align: top;
+}
+
+nav a:link,
+nav a:visited {
+  color: #fff;
+  display: inline-block; 
+  text-shadow: 1px 1px 0 #00480a;
+  text-decoration: none;
+}
+/* -- NAV (GENERAL) END -- */
+
+
+/* -- HEADER START -- */
+header {
+  padding: 2.0408163265306123% 0 0; /* 20/980 */
+  clear: both;  
+}
+
+.logo:link,
+.logo:visited {
+  color: #03480f;
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  width: 32.608695652173914%; /* 300/920 */ 
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  box-sizing: border-box;
+}
+
+.logo img {
+  display: block; 
+  margin: 0 auto;
+}
+
+.site-title {
+  font-size: 2em; /* 32/16 */
+}
+
+.site-tagline {
+  color: #810220;
+  font-size: 1.125em; /* 18/16 */ 
+}
+
+.header-photo { 
+  box-sizing: border-box; 
+  border: 1px solid #d9d9d9;
+  width: 67.3913043478261%; /* 620/920 */ 
+  float: right;
+  background: #fff;
+  padding: 4px;
+  border-radius: .25em;
+}
+
+.header-photo img {
+  display: block; 
+}
+
+.main-nav {
+  text-align: center; 
+  padding: 3.061224489795918% 0 0 0; /* 30/980 */
+  position: relative;
+  z-index: 100;
+}
+
+.main-nav ul {
+  font-size: .9375em; /* 15/16 */ 
+}
+
+.main-nav li {
+  margin: 0 .851063829787234% .851063829787234%; /* 8/940 */ 
+}
+
+.main-nav li:first-child {
+  margin-left: 0; 
+}
+
+.main-nav li:last-child {
+  margin-right: 0; 
+}
+
+.main-nav a:link,
+.main-nav a:visited {
+  padding: .6666666666666666em; /* 10/15 */ 
+  border-radius: .3333333333333333em; /* 5/15 */ 
+  background: #004911;
+  background: linear-gradient(to bottom, #007810 0%, #004911 100%);
+}
+
+.main-nav .current ul a:link,
+.main-nav .current ul a:visited {
+  background: #004911;
+  background: linear-gradient(to bottom, #007810 0%, #004911 100%);
+}
+
+.main-nav a:hover,
+.main-nav .current a,
+.main-nav .current ul a:hover,
+.main-nav .current ul .current a {
+  background: #0a840c;
+  background: linear-gradient(to bottom, #43b903 0%, #0a840c 100%);
+}
+
+
+/* -- HEADER END -- */
+
+h1 {
+	color: #03480f;
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {	
+	color: #810220;
+	font-size: 1.875em; /* 30/16 */ 
+	font-style: italic;
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+	font-size: 1em;
+	line-height: 1.5em; /* 24/16 */ 
+}
+
+/* -- FOOTER START -- */
+footer {
+  padding: 1.0204081632653061% 0 0; /* 10/980 */ 
+}
+
+.footer-nav {
+  background: #007410; 
+  overflow: auto;
+}
+
+.footer-nav ul {
+  font-size: .875em; /* 14/16 */ 
+  font-weight: bold; 
+  list-style-type: none; 
+  margin: 0;
+  float: left;
+}
+
+.footer-nav a {
+  padding: .7142857142857143em; /* 10/14 */ 
+  color: white;
+}
+
+.footer-nav a:hover {
+  text-decoration: underline; 
+}
+
+.footer-nav-wrapper {
+  margin: 0 auto;
+  max-width: 980px;
+  width: 100%; 
+  box-sizing: border-box;
+  padding: 0 1.0204081632653061%; /* 10/980 */
+}
+
+/* -- FOOTER END -- */
+

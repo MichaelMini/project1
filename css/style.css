@@ -225,7 +225,7 @@ footer {
 }
 
 .footer-nav {
-  background: #007410; 
+  background: #007410;
   overflow: auto;
 }
 
@@ -233,7 +233,7 @@ footer {
   font-size: .875em; /* 14/16 */ 
   font-weight: bold; 
   list-style-type: none; 
-  margin: 0;
+  margin: auto;
   float: left;
 }
 
